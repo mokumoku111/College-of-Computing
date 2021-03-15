@@ -1,0 +1,7 @@
+preset: preset1
+accent:
+  color-1: '#5e84ff'
+  color-2: '#363a73'
+  color-3: '#46a5e5'
+offcanvas:
+  text-color: '#253b80'
