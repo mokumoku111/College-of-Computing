@@ -8,8 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-@import url('//fonts.googleapis.com/css?family=Roboto:300,400');
-@import url('//fonts.googleapis.com/css?family=Fira+Sans:700');
+@import url('//fonts.googleapis.com/css?family=Kanit:100,200italic,300,600,600italic');
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, media/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, media/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -137,12 +136,12 @@ a:hover {
 }
 /* line 5, templates/jl_learnmate_free/scss/learnmate/styles/_typography.scss */
 body {
-  font-family: "Roboto";
+  font-family: "Kanit";
   font-weight: 300;
 }
 /* line 11, templates/jl_learnmate_free/scss/learnmate/styles/_typography.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 300;
 }
 /* line 16, templates/jl_learnmate_free/scss/learnmate/styles/_typography.scss */
@@ -851,7 +850,7 @@ hr {
 /* line 2, templates/jl_learnmate_free/scss/learnmate/styles/_buttons.scss */
 .button {
   display: inline-block;
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 1.15;
@@ -2285,7 +2284,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 58, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */
 #g-slideshow .tp-leftarrow.default {
-  background: url('../../images/navi.png?604f789a') no-repeat 0 0;
+  background: url('../../images/navi.png?604f8a1c') no-repeat 0 0;
   background-position: -89px -26px;
   height: 40px;
   cursor: pointer;
@@ -2298,7 +2297,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 69, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */
 #g-slideshow .tp-rightarrow.default {
   width: 30px;
-  background: url('../../images/navi.png?604f789a');
+  background: url('../../images/navi.png?604f8a1c');
   background-position: -89px -103px;
   height: 40px;
   cursor: pointer;
@@ -2313,7 +2312,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 87, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */
 #g-slideshow .tp-bullets.simplebullets.round .bullet {
-  background: url('../../images/navi.png?604f789a') no-repeat top left;
+  background: url('../../images/navi.png?604f8a1c') no-repeat top left;
   background-position: -34px -117px;
 }
 /* line 91, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */
@@ -2387,7 +2386,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 51, templates/jl_learnmate_free/scss/learnmate/sections/_navigation.scss */
 #g-navigation .g-main-nav {
-  font-family: "Roboto";
+  font-family: "Kanit";
   font-weight: 500;
   line-height: 1.5;
 }
@@ -3071,7 +3070,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/jl_learnmate_free/scss/learnmate/particles/_logo.scss */
 .g-logo {
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 900;
   font-size: 1.35rem;
   vertical-align: middle;
@@ -3924,7 +3923,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 464, templates/jl_learnmate_free/scss/learnmate/particles/_owlcarousel.scss */
 .g-owlcarousel-item-title {
-  font-family: "Roboto";
+  font-family: "Kanit";
   font-size: 3.5rem;
   line-height: 4rem;
   font-weight: 500;
@@ -4001,7 +4000,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 700;
 }
 @media only all and (max-width: 50.99rem) {
@@ -4030,7 +4029,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/jl_learnmate_free/scss/learnmate/particles/_totop.scss */
 .g-totop {
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-size: 0.8125rem;
   font-weight: 300;
   text-align: right;

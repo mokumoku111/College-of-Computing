@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/config/default/page/body.yaml',
-    'modified' => 1615820952,
+    'modified' => 1615825436,
     'data' => [
         'attribs' => [
             'id' => '',

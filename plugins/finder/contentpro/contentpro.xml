@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="finder" method="upgrade">
+	<name>plg_finder_contentpro</name>
+	<author>The Krotek</author>
+	<creationDate>October 2017</creationDate>
+	<copyright>GNU/GPLv2</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@thekrotek.com</authorEmail>
+	<authorUrl>thekrotek.com</authorUrl>
+	<version>1.0.0</version>
+    <description>
+    <![CDATA[
+		<p>This is a replacement of standard Smart Search - Content plugin, which is a bit limited. Pro version allows you to fully customize index updates and taxonomies (search filters).</p>
+		<p>You'll find documentation right on <a href="https://thekrotek.com/joomla-extensions/smart-search-content-pro" target="_blank" title="Read documentation">extension's page</a>. Send all your support requests to <a href="mailto:support@thekrotek.com" target="_blank" title="Write us email">support@thekrotek.com</a> or post them on <a href="https://thekrotek.com/forum" target="_blank" title="Visit support forum">support forum</a>.</p>
+		]]>
+	</description>	
+	<files>
+		<filename plugin="contentpro">contentpro.php</filename>
+		<filename>index.html</filename>
+		<folder>fields</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">languages/en-GB.plg_finder_contentpro.ini</language>
+		<language tag="en-GB">languages/en-GB.plg_finder_contentpro.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="plugins/finder/contentpro/fields">
+			<fieldset name="basic">
+				<field name="license" type="support" class="input-medium required" default="" label="PLG_FINDER_CONTENTPRO_GENERAL_LICENSE" description="PLG_FINDER_CONTENTPRO_GENERAL_LICENSE_DESC" />
+			</fieldset>
+			<fieldset name="general" label="PLG_FINDER_CONTENTPRO_GENERAL">
+				<field name="delimiter" type="text" default="" class="input-mini center" label="PLG_FINDER_CONTENTPRO_GENERAL_DELIMITER" description="PLG_FINDER_CONTENTPRO_GENERAL_DELIMITER_DESC" />
+				<field name="parentname" type="text" default="" label="PLG_FINDER_CONTENTPRO_GENERAL_PARENTNAME" description="PLG_FINDER_CONTENTPRO_GENERAL_PARENTNAME_DESC" />			
+				<field name="target" type="radio" class="btn-group" default="2" label="PLG_FINDER_CONTENTPRO_GENERAL_TARGET" description="PLG_FINDER_CONTENTPRO_GENERAL_TARGET_DESC">
+					<option value="1">PLG_FINDER_CONTENTPRO_GENERAL_TARGET_BLANK</option>
+					<option value="2">PLG_FINDER_CONTENTPRO_GENERAL_TARGET_SELF</option>
+				</field>				
+				<field name="categories" type="sql" default="" multiple="multiple" class="input-xxlarge" query="SELECT id, title FROM #__categories WHERE extension = 'com_content' AND published = 1 ORDER BY title ASC" key_field="id" value_field="title" label="PLG_FINDER_CONTENTPRO_GENERAL_CATEGORIES" description="PLG_FINDER_CONTENTPRO_GENERAL_CATEGORIES_DESC" />
+				<field name="categoriesaction" type="radio" class="btn-group" default="exclude" label="PLG_FINDER_CONTENTPRO_GENERAL_CATEGORIESACTION" description="PLG_FINDER_CONTENTPRO_GENERAL_CATEGORIESACTION_DESC">
+					<option value="exclude">PLG_FINDER_CONTENTPRO_ACTION_EXCLUDE</option>
+					<option value="include">PLG_FINDER_CONTENTPRO_ACTION_INCLUDE</option>
+				</field>
+				<field name="articles" type="sql" default="" multiple="multiple" class="input-xxlarge" query="SELECT id, title FROM #__content WHERE state = 1 ORDER BY title ASC" key_field="id" value_field="title" label="PLG_FINDER_CONTENTPRO_GENERAL_ARTICLES" description="PLG_FINDER_CONTENTPRO_GENERAL_ARTICLES_DESC" />
+				<field name="articlesaction" type="radio" class="btn-group" default="exclude" label="PLG_FINDER_CONTENTPRO_GENERAL_ARTICLESACTION" description="PLG_FINDER_CONTENTPRO_GENERAL_ARTICLESACTION_DESC">
+					<option value="exclude">PLG_FINDER_CONTENTPRO_ACTION_EXCLUDE</option>
+					<option value="include">PLG_FINDER_CONTENTPRO_ACTION_INCLUDE</option>
+				</field>
+			</fieldset>
+			<fieldset name="taxonomy" label="PLG_FINDER_CONTENTPRO_TAXONOMY">
+				<field name="taxonomy_author" type="radio" class="btn-group" default="1" label="PLG_FINDER_CONTENTPRO_TAXONOMY_AUTHOR" description="PLG_FINDER_CONTENTPRO_TAXONOMY_AUTHOR_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="taxonomy_category" type="radio" class="btn-group" default="1" label="PLG_FINDER_CONTENTPRO_TAXONOMY_CATEGORY" description="PLG_FINDER_CONTENTPRO_TAXONOMY_CATEGORY_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="taxonomy_language" type="radio" class="btn-group" default="1" label="PLG_FINDER_CONTENTPRO_TAXONOMY_LANGUAGE" description="PLG_FINDER_CONTENTPRO_TAXONOMY_LANGUAGE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="taxonomy_state" type="radio" class="btn-group" default="1" label="PLG_FINDER_CONTENTPRO_TAXONOMY_STATE" description="PLG_FINDER_CONTENTPRO_TAXONOMY_STATE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field name="taxonomy_tag" type="radio" class="btn-group" default="1" label="PLG_FINDER_CONTENTPRO_TAXONOMY_TAG" description="PLG_FINDER_CONTENTPRO_TAXONOMY_TAG_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>				
+				<field name="taxonomy_custom" type="fields" class="input-xxlarge" label="PLG_FINDER_CONTENTPRO_TAXONOMY_CUSTOM" description="PLG_FINDER_CONTENTPRO_TAXONOMY_CUSTOM_DESC" />
+			</fieldset>
+			<fieldset name="more" label="PLG_FINDER_CONTENTPRO_MORE">
+				<field name="thumbs" type="radio" class="btn-group" default="0" label="PLG_FINDER_CONTENTPRO_MORE_THUMBS" description="PLG_FINDER_CONTENTPRO_MORE_THUMBS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>					
+				</field>			
+				<field name="parent" type="radio" class="btn-group" default="" label="PLG_FINDER_CONTENTPRO_MORE_PARENT" description="PLG_FINDER_CONTENTPRO_MORE_PARENT_DESC">
+					<option value="">PLG_FINDER_CONTENTPRO_META_NONE</option>
+					<option value="link">PLG_FINDER_CONTENTPRO_META_LINK</option>
+					<option value="title">PLG_FINDER_CONTENTPRO_META_TITLE</option>
+				</field>				
+				<field name="category" type="radio" class="btn-group" default="" label="PLG_FINDER_CONTENTPRO_MORE_CATEGORY" description="PLG_FINDER_CONTENTPRO_MORE_CATEGORY_DESC">
+					<option value="">PLG_FINDER_CONTENTPRO_META_NONE</option>
+					<option value="link">PLG_FINDER_CONTENTPRO_META_LINK</option>
+					<option value="title">PLG_FINDER_CONTENTPRO_META_TITLE</option>
+				</field>				
+				<field name="published" type="radio" class="btn-group" default="1" label="PLG_FINDER_CONTENTPRO_MORE_PUBLISHED" description="PLG_FINDER_CONTENTPRO_MORE_PUBLISHED_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>					
+				</field>				
+				<field name="archived" type="radio" class="btn-group" default="1" label="PLG_FINDER_CONTENTPRO_MORE_ARCHIVED" description="PLG_FINDER_CONTENTPRO_MORE_ARCHIVED_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>					
+				</field>
+				<field name="trashed" type="radio" class="btn-group" default="0" label="PLG_FINDER_CONTENTPRO_MORE_TRASHED" description="PLG_FINDER_CONTENTPRO_MORE_TRASHED_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>					
+				</field>				
+				<field name="featured" type="radio" class="btn-group" default="0" label="PLG_FINDER_CONTENTPRO_MORE_FEATURED" description="PLG_FINDER_CONTENTPRO_MORE_FEATURED_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>					
+				</field>				
+				<field name="tags" type="radio" class="btn-group" default="0" label="PLG_FINDER_CONTENTPRO_MORE_TAGS" description="PLG_FINDER_CONTENTPRO_MORE_TAGS_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>					
+				</field>
+			</fieldset>			
+		</fields>
+	</config>				
+	<updateservers>
+		<server type="extension" priority="1" name="Smart Search - Content Pro"><![CDATA[https://thekrotek.com/index.php?option=com_smartseller&task=updates&type=plugin&folder=finder&element=contentpro&id=281]]></server>
+	</updateservers>	
+</extension>

@@ -98,7 +98,7 @@ legend small {
 /* line 1, templates/jl_learnmate_free/scss/learnmate-joomla/styles/_core.scss */
 .edit.item-page .btn-toolbar .btn, .pager.pagenav a, .moduletable #login-form .control-group .btn, p.readmore .btn, .contact .form-actions .btn, #contact-form .controls .btn-primary.validate, .profile .btn, .login .btn, .logout .btn, .registration .btn, .profile-edit .btn, .remind .btn, .reset .btn, .search #searchForm .btn, .finder #searchForm .btn, .search #search-form .btn, .finder #search-form .btn {
   display: inline-block;
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 500;
   font-size: 0.8rem;
   line-height: 1.15;
@@ -139,7 +139,7 @@ legend small {
 }
 /* line 42, templates/jl_learnmate_free/scss/learnmate-joomla/styles/_core.scss */
 .btn-primary {
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 1.15;
@@ -256,7 +256,7 @@ table.table-bordered thead th {
 /* line 172, templates/jl_learnmate_free/scss/learnmate-joomla/styles/_core.scss */
 /* line 173, templates/jl_learnmate_free/scss/learnmate-joomla/styles/_core.scss */
 .print-mode #g-page-surround .btn a {
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 600;
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
@@ -321,7 +321,7 @@ pre.prettyprint {
 /* line 1, templates/jl_learnmate_free/scss/learnmate-joomla/styles/_forms.scss */
 legend {
   color: #767779;
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -857,7 +857,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 /* line 64, templates/jl_learnmate_free/scss/learnmate-joomla/styles/_modules.scss */
 .moduletable .breadcrumb {
-  font-family: "Roboto";
+  font-family: "Kanit";
 }
 /* line 67, templates/jl_learnmate_free/scss/learnmate-joomla/styles/_modules.scss */
 .moduletable .breadcrumb li {
@@ -986,7 +986,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 /* line 2, templates/jl_learnmate_free/scss/learnmate-joomla/components/_content.scss */
 /* line 3, templates/jl_learnmate_free/scss/learnmate-joomla/components/_content.scss */
 .page-header h2 {
-  font-family: "Fira Sans";
+  font-family: "Kanit";
   margin-bottom: 0.5rem;
 }
 /* line 10, templates/jl_learnmate_free/scss/learnmate-joomla/components/_content.scss */
@@ -1002,7 +1002,7 @@ dl.article-info dt {
 dl.article-info dd {
   display: inline-block;
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Kanit";
   font-style: italic;
   color: #959595;
   line-height: 37px;

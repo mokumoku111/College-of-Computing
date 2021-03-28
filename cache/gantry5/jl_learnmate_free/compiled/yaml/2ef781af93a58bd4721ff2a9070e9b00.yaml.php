@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/media/gantry5/engines/nucleus/blueprints/page/body.yaml',
-    'modified' => 1615820836,
+    'modified' => 1615825435,
     'data' => [
         'name' => 'Body Attributes',
         'description' => 'Settings that can be applied to the page.',

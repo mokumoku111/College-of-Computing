@@ -2285,7 +2285,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 58, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */
 #g-slideshow .tp-leftarrow.default {
-  background: url('../../images/navi.png?604f789a') no-repeat 0 0;
+  background: url('../../images/navi.png?604f8a1c') no-repeat 0 0;
   background-position: -89px -26px;
   height: 40px;
   cursor: pointer;
@@ -2298,7 +2298,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 69, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */
 #g-slideshow .tp-rightarrow.default {
   width: 30px;
-  background: url('../../images/navi.png?604f789a');
+  background: url('../../images/navi.png?604f8a1c');
   background-position: -89px -103px;
   height: 40px;
   cursor: pointer;
@@ -2313,7 +2313,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 87, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */
 #g-slideshow .tp-bullets.simplebullets.round .bullet {
-  background: url('../../images/navi.png?604f789a') no-repeat top left;
+  background: url('../../images/navi.png?604f8a1c') no-repeat top left;
   background-position: -34px -117px;
 }
 /* line 91, templates/jl_learnmate_free/scss/learnmate/sections/_slideshow.scss */

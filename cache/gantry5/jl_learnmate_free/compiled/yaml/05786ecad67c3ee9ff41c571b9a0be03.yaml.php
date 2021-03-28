@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/custom/config/default/layout.yaml',
-    'modified' => 1615822149,
+    'modified' => 1616905108,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -13,10 +13,11 @@ return [
         'layout' => [
             '/header/' => [
                 0 => [
-                    0 => 'logo-9608 12',
-                    1 => 'spacer-spacer-8120 73',
-                    2 => 'custom-2399 5',
-                    3 => 'position-position-2741 10'
+                    0 => 'logo-9608 10',
+                    1 => 'spacer-8120 57',
+                    2 => 'position-position-8364 18',
+                    3 => 'custom-2399 5',
+                    4 => 'position-position-2741 10'
                 ]
             ],
             '/navigation/' => [
@@ -48,6 +49,16 @@ return [
                             ],
                             1 => [
                                 0 => 'system-content-1587'
+                            ],
+                            2 => [
+                                0 => 'position-position-2554'
+                            ],
+                            3 => [
+                                0 => 'position-position-3719'
+                            ],
+                            4 => [
+                                0 => 'position-position-7111 30',
+                                1 => 'spacer-3635 70'
                             ]
                         ]
                     ],
@@ -157,6 +168,13 @@ return [
                     'image' => 'gantry-media://logo/152926842_279410070198546_2843013979326372393_n.png'
                 ]
             ],
+            'position-position-8364' => [
+                'title' => 'search',
+                'attributes' => [
+                    'key' => 'search',
+                    'chrome' => ''
+                ]
+            ],
             'custom-2399' => [
                 'title' => 'Top Menu',
                 'attributes' => [
@@ -189,6 +207,25 @@ return [
                 'title' => 'Aside',
                 'attributes' => [
                     'key' => 'aside'
+                ]
+            ],
+            'position-position-2554' => [
+                'title' => 'pre1',
+                'attributes' => [
+                    'key' => 'pre1'
+                ]
+            ],
+            'position-position-3719' => [
+                'title' => 'perview',
+                'attributes' => [
+                    'enabled' => 0,
+                    'key' => 'perview'
+                ]
+            ],
+            'position-position-7111' => [
+                'title' => 'share',
+                'attributes' => [
+                    'key' => 'share'
                 ]
             ],
             'position-position-3949' => [

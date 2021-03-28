@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/particles/contentcubes.yaml',
-    'modified' => 1615820955,
+    'modified' => 1615825436,
     'data' => [
         'name' => 'Content Cubes',
         'description' => 'Display content in side-by-side cubes.',

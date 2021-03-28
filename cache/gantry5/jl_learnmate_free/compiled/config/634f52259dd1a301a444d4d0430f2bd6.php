@@ -1,61 +1,61 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1615821082,
-    'checksum' => '0ce21293cf694e7b6519072beec616e0',
+    'timestamp' => 1616905113,
+    'checksum' => '70359ec066795b5f0d497ef8d4cebc04',
     'files' => [
         'templates/jl_learnmate_free/custom/config/_error' => [
             'index' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/_error/index.yaml',
-                'modified' => 1615820960
+                'modified' => 1616905108
             ],
             'layout' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/_error/layout.yaml',
-                'modified' => 1615820952
+                'modified' => 1616905108
             ]
         ],
         'templates/jl_learnmate_free/custom/config/default' => [
             'index' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/default/index.yaml',
-                'modified' => 1615820958
+                'modified' => 1616905108
             ],
             'layout' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/default/layout.yaml',
-                'modified' => 1615820957
+                'modified' => 1616905108
             ]
         ],
         'templates/jl_learnmate_free/config/default' => [
             'page/body' => [
                 'file' => 'templates/jl_learnmate_free/config/default/page/body.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'page/head' => [
                 'file' => 'templates/jl_learnmate_free/config/default/page/head.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/branding' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/branding.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/copyright' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/copyright.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/logo' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/logo.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/social' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/social.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/totop' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/totop.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'styles' => [
                 'file' => 'templates/jl_learnmate_free/config/default/styles.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ]
         ]
     ],
@@ -469,7 +469,7 @@ return [
         ],
         'index' => [
             'name' => '_error',
-            'timestamp' => 1615820952,
+            'timestamp' => 1616905108,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -477,7 +477,11 @@ return [
                 'timestamp' => 1483060787
             ],
             'positions' => [
-                
+                'search' => 'search',
+                'switch' => 'switch',
+                'perview' => 'perview',
+                'share' => 'share',
+                'pre1' => 'pre1'
             ],
             'sections' => [
                 'header' => 'Header',
@@ -492,36 +496,44 @@ return [
             ],
             'particles' => [
                 'logo' => [
-                    'logo-3563' => 'Logo / Image'
+                    'logo-3353' => 'Logo / Image'
                 ],
                 'spacer' => [
-                    'spacer-3147' => 'Spacer'
+                    'spacer-8342' => 'Spacer',
+                    'spacer-7190' => 'Spacer'
+                ],
+                'position' => [
+                    'position-position-1753' => 'search',
+                    'position-position-9191' => 'switch',
+                    'position-position-9607' => 'perview',
+                    'position-position-5635' => 'share',
+                    'position-position-3592' => 'pre1'
                 ],
                 'custom' => [
-                    'custom-1192' => 'Top Menu',
-                    'custom-2108' => 'Logo',
-                    'custom-9196' => 'Information',
-                    'custom-1891' => 'Quick Link',
-                    'custom-9347' => 'Extra Link',
-                    'custom-1332' => 'Contact Information'
+                    'custom-2983' => 'Top Menu',
+                    'custom-1799' => 'Logo',
+                    'custom-2104' => 'Information',
+                    'custom-1380' => 'Quick Link',
+                    'custom-9525' => 'Extra Link',
+                    'custom-2231' => 'Contact Information'
                 ],
                 'menu' => [
-                    'menu-1716' => 'Menu'
+                    'menu-3536' => 'Menu'
                 ],
                 'messages' => [
-                    'system-messages-2777' => 'System Messages'
+                    'system-messages-7106' => 'System Messages'
                 ],
                 'content' => [
-                    'system-content-8566' => 'Page Content'
+                    'system-content-3550' => 'Page Content'
                 ],
                 'branding' => [
-                    'branding-7125' => 'Branding'
+                    'branding-8345' => 'Branding'
                 ],
                 'social' => [
-                    'social-8117' => 'Social'
+                    'social-8248' => 'Social'
                 ],
                 'mobile-menu' => [
-                    'mobile-menu-6455' => 'Mobile-menu'
+                    'mobile-menu-1417' => 'Mobile-menu'
                 ]
             ],
             'inherit' => [
@@ -531,20 +543,26 @@ return [
                     'mainbar' => 'mainbar',
                     'footer' => 'footer',
                     'offcanvas' => 'offcanvas',
-                    'logo-3563' => 'logo-2232',
-                    'spacer-3147' => 'spacer-4804',
-                    'custom-1192' => 'custom-3811',
-                    'menu-1716' => 'menu-1945',
-                    'system-messages-2777' => 'system-messages-9217',
-                    'system-content-8566' => 'system-content-8519',
-                    'custom-2108' => 'custom-7097',
-                    'custom-9196' => 'custom-6896',
-                    'custom-1891' => 'custom-4169',
-                    'custom-9347' => 'custom-7003',
-                    'custom-1332' => 'custom-2724',
-                    'branding-7125' => 'branding-5902',
-                    'social-8117' => 'social-1390',
-                    'mobile-menu-6455' => 'mobile-menu-9706'
+                    'logo-3353' => 'logo-9608',
+                    'spacer-8342' => 'spacer-8120',
+                    'position-position-1753' => 'position-position-8364',
+                    'custom-2983' => 'custom-2399',
+                    'position-position-9191' => 'position-position-2741',
+                    'menu-3536' => 'menu-6409',
+                    'system-messages-7106' => 'system-messages-7152',
+                    'system-content-3550' => 'system-content-1587',
+                    'position-position-9607' => 'position-position-3719',
+                    'position-position-5635' => 'position-position-7111',
+                    'spacer-7190' => 'spacer-3635',
+                    'position-position-3592' => 'position-position-2554',
+                    'custom-1799' => 'custom-9609',
+                    'custom-2104' => 'custom-2410',
+                    'custom-1380' => 'custom-6963',
+                    'custom-9525' => 'custom-1285',
+                    'custom-2231' => 'custom-5076',
+                    'branding-8345' => 'branding-2819',
+                    'social-8248' => 'social-3954',
+                    'mobile-menu-1417' => 'mobile-menu-5697'
                 ]
             ]
         ],
@@ -692,11 +710,22 @@ return [
             ],
             'content' => [
                 'logo-9608' => [
-                    'title' => 'Logo / Image'
+                    'title' => 'Logo / Image',
+                    'attributes' => [
+                        'image' => 'gantry-media://logo/152926842_279410070198546_2843013979326372393_n.png'
+                    ]
+                ],
+                'position-position-8364' => [
+                    'title' => 'search',
+                    'attributes' => [
+                        'key' => 'search',
+                        'chrome' => ''
+                    ]
                 ],
                 'custom-2399' => [
                     'title' => 'Top Menu',
                     'attributes' => [
+                        'enabled' => 0,
                         'html' => '<div class="top-menu">
     <ul class="nav menu">
         <li><a href="#">TRANDING</a></li>
@@ -709,10 +738,41 @@ return [
 '
                     ]
                 ],
+                'position-position-2741' => [
+                    'title' => 'switch',
+                    'attributes' => [
+                        'key' => 'switch'
+                    ]
+                ],
+                'position-position-6267' => [
+                    'title' => 'slider1',
+                    'attributes' => [
+                        'key' => 'slider1'
+                    ]
+                ],
                 'position-position-4734' => [
                     'title' => 'Aside',
                     'attributes' => [
                         'key' => 'aside'
+                    ]
+                ],
+                'position-position-2554' => [
+                    'title' => 'pre1',
+                    'attributes' => [
+                        'key' => 'pre1'
+                    ]
+                ],
+                'position-position-3719' => [
+                    'title' => 'perview',
+                    'attributes' => [
+                        'enabled' => 0,
+                        'key' => 'perview'
+                    ]
+                ],
+                'position-position-7111' => [
+                    'title' => 'share',
+                    'attributes' => [
+                        'key' => 'share'
                     ]
                 ],
                 'position-position-3949' => [
@@ -724,6 +784,7 @@ return [
                 'custom-9609' => [
                     'title' => 'Logo',
                     'attributes' => [
+                        'enabled' => 0,
                         'html' => '<div class="jl-ft-about" style="text-align: left">
 	<div class="jl-heading">
       <img src="gantry-media://logo/logo.png" alt="" />
@@ -734,6 +795,7 @@ return [
                 'custom-2410' => [
                     'title' => 'Information',
                     'attributes' => [
+                        'enabled' => 0,
                         'html' => '<div class="jl-custom-ft uk-grid">
   <div class="jl-custom-title uk-width-1-1">
     <h3>Information</h3>
@@ -761,6 +823,7 @@ return [
                 'custom-6963' => [
                     'title' => 'Quick Link',
                     'attributes' => [
+                        'enabled' => 0,
                         'html' => '<div class="jl-custom-ft uk-grid">
   <div class="jl-custom-title uk-width-1-1">
     <h3>QUICK LINK</h3>
@@ -787,6 +850,7 @@ return [
                 'custom-1285' => [
                     'title' => 'Extra Link',
                     'attributes' => [
+                        'enabled' => 0,
                         'html' => '<div class="jl-custom-ft uk-grid">
   <div class="jl-custom-title uk-width-1-1">
     <h3>EXTRA LINK</h3>
@@ -813,6 +877,7 @@ return [
                 'custom-5076' => [
                     'title' => 'Contact Information',
                     'attributes' => [
+                        'enabled' => 0,
                         'html' => '<div class="jl-custom-ft uk-grid">
   <div class="jl-custom-title uk-width-1-1">
     <h3>CONTACT INFORMATION</h3>
@@ -832,13 +897,9 @@ Avenue, Bristol, BS8 1TH, UK. </a>
 </div>'
                     ]
                 ],
-                'branding-2819' => [
-                    'attributes' => [
-                        'content' => 'Copyright © 2017. Powered by <a href="https://www.joomlead.com/" title="JoomLead" class="g-powered-by">JoomLead<span class="hidden-tablet"> </span></a>.All rights reserved.'
-                    ]
-                ],
                 'social-3954' => [
                     'attributes' => [
+                        'enabled' => 0,
                         'items' => [
                             0 => [
                                 'icon' => 'fa fa-twitter fa-fw',

@@ -1,51 +1,51 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1615822222,
-    'checksum' => 'd032434f6b7d61e72333a62431974e08',
+    'timestamp' => 1616906049,
+    'checksum' => 'fb3722c486fc800f62fee508cc5521f7',
     'files' => [
         'templates/jl_learnmate_free/custom/config/default' => [
             'index' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/default/index.yaml',
-                'modified' => 1615822149
+                'modified' => 1616905108
             ],
             'layout' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/default/layout.yaml',
-                'modified' => 1615822149
+                'modified' => 1616905108
             ]
         ],
         'templates/jl_learnmate_free/config/default' => [
             'page/body' => [
                 'file' => 'templates/jl_learnmate_free/config/default/page/body.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'page/head' => [
                 'file' => 'templates/jl_learnmate_free/config/default/page/head.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/branding' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/branding.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/copyright' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/copyright.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/logo' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/logo.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/social' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/social.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/totop' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/totop.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'styles' => [
                 'file' => 'templates/jl_learnmate_free/config/default/styles.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ]
         ]
     ],
@@ -459,7 +459,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1615822149,
+            'timestamp' => 1616905108,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -467,9 +467,13 @@ return [
                 'timestamp' => 1615820955
             ],
             'positions' => [
+                'search' => 'search',
                 'switch' => 'switch',
                 'slider1' => 'slider1',
                 'aside' => 'Aside',
+                'pre1' => 'pre1',
+                'perview' => 'perview',
+                'share' => 'share',
                 'sidebar' => 'Sidebar'
             ],
             'sections' => [
@@ -488,7 +492,18 @@ return [
                     'logo-9608' => 'Logo / Image'
                 ],
                 'spacer' => [
-                    'spacer-spacer-8120' => 'Spacer'
+                    'spacer-8120' => 'Spacer',
+                    'spacer-3635' => 'Spacer'
+                ],
+                'position' => [
+                    'position-position-8364' => 'search',
+                    'position-position-2741' => 'switch',
+                    'position-position-6267' => 'slider1',
+                    'position-position-4734' => 'Aside',
+                    'position-position-2554' => 'pre1',
+                    'position-position-3719' => 'perview',
+                    'position-position-7111' => 'share',
+                    'position-position-3949' => 'Sidebar'
                 ],
                 'custom' => [
                     'custom-2399' => 'Top Menu',
@@ -497,12 +512,6 @@ return [
                     'custom-6963' => 'Quick Link',
                     'custom-1285' => 'Extra Link',
                     'custom-5076' => 'Contact Information'
-                ],
-                'position' => [
-                    'position-position-2741' => 'switch',
-                    'position-position-6267' => 'slider1',
-                    'position-position-4734' => 'Aside',
-                    'position-position-3949' => 'Sidebar'
                 ],
                 'menu' => [
                     'menu-6409' => 'Menu'
@@ -537,10 +546,11 @@ return [
             'layout' => [
                 '/header/' => [
                     0 => [
-                        0 => 'logo-9608 12',
-                        1 => 'spacer-spacer-8120 73',
-                        2 => 'custom-2399 5',
-                        3 => 'position-position-2741 10'
+                        0 => 'logo-9608 10',
+                        1 => 'spacer-8120 57',
+                        2 => 'position-position-8364 18',
+                        3 => 'custom-2399 5',
+                        4 => 'position-position-2741 10'
                     ]
                 ],
                 '/navigation/' => [
@@ -572,6 +582,16 @@ return [
                                 ],
                                 1 => [
                                     0 => 'system-content-1587'
+                                ],
+                                2 => [
+                                    0 => 'position-position-2554'
+                                ],
+                                3 => [
+                                    0 => 'position-position-3719'
+                                ],
+                                4 => [
+                                    0 => 'position-position-7111 30',
+                                    1 => 'spacer-3635 70'
                                 ]
                             ]
                         ],
@@ -681,6 +701,13 @@ return [
                         'image' => 'gantry-media://logo/152926842_279410070198546_2843013979326372393_n.png'
                     ]
                 ],
+                'position-position-8364' => [
+                    'title' => 'search',
+                    'attributes' => [
+                        'key' => 'search',
+                        'chrome' => ''
+                    ]
+                ],
                 'custom-2399' => [
                     'title' => 'Top Menu',
                     'attributes' => [
@@ -713,6 +740,25 @@ return [
                     'title' => 'Aside',
                     'attributes' => [
                         'key' => 'aside'
+                    ]
+                ],
+                'position-position-2554' => [
+                    'title' => 'pre1',
+                    'attributes' => [
+                        'key' => 'pre1'
+                    ]
+                ],
+                'position-position-3719' => [
+                    'title' => 'perview',
+                    'attributes' => [
+                        'enabled' => 0,
+                        'key' => 'perview'
+                    ]
+                ],
+                'position-position-7111' => [
+                    'title' => 'share',
+                    'attributes' => [
+                        'key' => 'share'
                     ]
                 ],
                 'position-position-3949' => [

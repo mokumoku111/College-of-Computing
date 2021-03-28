@@ -1,65 +1,65 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1615822223,
-    'checksum' => 'a2e3a24109045a7fac6db3544181db18',
+    'timestamp' => 1616905112,
+    'checksum' => '53c6b08c92911bc31817ffe962d31d9e',
     'files' => [
         'templates/jl_learnmate_free/custom/config/9' => [
             'index' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/9/index.yaml',
-                'modified' => 1615822149
+                'modified' => 1616905108
             ],
             'layout' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/9/layout.yaml',
-                'modified' => 1615822149
+                'modified' => 1616905108
             ],
             'styles' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/9/styles.yaml',
-                'modified' => 1615821225
+                'modified' => 1615864788
             ]
         ],
         'templates/jl_learnmate_free/custom/config/default' => [
             'index' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/default/index.yaml',
-                'modified' => 1615822149
+                'modified' => 1616905108
             ],
             'layout' => [
                 'file' => 'templates/jl_learnmate_free/custom/config/default/layout.yaml',
-                'modified' => 1615822149
+                'modified' => 1616905108
             ]
         ],
         'templates/jl_learnmate_free/config/default' => [
             'page/body' => [
                 'file' => 'templates/jl_learnmate_free/config/default/page/body.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'page/head' => [
                 'file' => 'templates/jl_learnmate_free/config/default/page/head.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/branding' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/branding.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/copyright' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/copyright.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/logo' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/logo.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/social' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/social.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'particles/totop' => [
                 'file' => 'templates/jl_learnmate_free/config/default/particles/totop.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'styles' => [
                 'file' => 'templates/jl_learnmate_free/config/default/styles.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ]
         ]
     ],
@@ -345,8 +345,8 @@ return [
                 'mobile-menu-breakpoint' => '51rem'
             ],
             'font' => [
-                'family-default' => 'family=Roboto:300,400',
-                'family-title' => 'family=Fira+Sans:700'
+                'family-default' => 'family=Kanit:100,200italic,300,600,600italic',
+                'family-title' => 'family=Kanit:100,200italic,300,600,600italic'
             ],
             'footer' => [
                 'background' => '#f2f2f2',
@@ -473,7 +473,7 @@ return [
         ],
         'index' => [
             'name' => 9,
-            'timestamp' => 1615822149,
+            'timestamp' => 1616905108,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -481,9 +481,13 @@ return [
                 'timestamp' => 1615820955
             ],
             'positions' => [
+                'search' => 'search',
                 'switch' => 'switch',
                 'slider1' => 'slider1',
                 'aside' => 'Aside',
+                'perview' => 'perview',
+                'share' => 'share',
+                'pre1' => 'pre1',
                 'sidebar' => 'Sidebar'
             ],
             'sections' => [
@@ -502,7 +506,18 @@ return [
                     'logo-9608' => 'Logo / Image'
                 ],
                 'spacer' => [
-                    'spacer-2356' => 'Spacer'
+                    'spacer-1627' => 'Spacer',
+                    'spacer-9978' => 'Spacer'
+                ],
+                'position' => [
+                    'position-position-4491' => 'search',
+                    'position-position-7948' => 'switch',
+                    'position-position-7849' => 'slider1',
+                    'position-position-4734' => 'Aside',
+                    'position-position-9987' => 'perview',
+                    'position-position-3372' => 'share',
+                    'position-position-3029' => 'pre1',
+                    'position-position-3949' => 'Sidebar'
                 ],
                 'custom' => [
                     'custom-2399' => 'Top Menu',
@@ -512,12 +527,6 @@ return [
                     'custom-1285' => 'Extra Link',
                     'custom-5076' => 'Contact Information'
                 ],
-                'position' => [
-                    'position-position-7948' => 'switch',
-                    'position-position-7849' => 'slider1',
-                    'position-position-4734' => 'Aside',
-                    'position-position-3949' => 'Sidebar'
-                ],
                 'menu' => [
                     'menu-6409' => 'Menu'
                 ],
@@ -525,7 +534,7 @@ return [
                     'system-messages-7152' => 'System Messages'
                 ],
                 'content' => [
-                    'system-content-1587' => 'Page Content'
+                    'system-content-3116' => 'Page Content'
                 ],
                 'branding' => [
                     'branding-2819' => 'Branding'
@@ -549,13 +558,19 @@ return [
                     'footer' => 'footer',
                     'offcanvas' => 'offcanvas',
                     'logo-9608' => 'logo-9608',
+                    'spacer-1627' => 'spacer-8120',
+                    'position-position-4491' => 'position-position-8364',
                     'custom-2399' => 'custom-2399',
                     'position-position-7948' => 'position-position-2741',
                     'menu-6409' => 'menu-6409',
                     'position-position-7849' => 'position-position-6267',
                     'position-position-4734' => 'position-position-4734',
                     'system-messages-7152' => 'system-messages-7152',
-                    'system-content-1587' => 'system-content-1587',
+                    'system-content-3116' => 'system-content-1587',
+                    'position-position-9987' => 'position-position-3719',
+                    'position-position-3372' => 'position-position-7111',
+                    'spacer-9978' => 'spacer-3635',
+                    'position-position-3029' => 'position-position-2554',
                     'position-position-3949' => 'position-position-3949',
                     'custom-9609' => 'custom-9609',
                     'custom-2410' => 'custom-2410',
@@ -735,6 +750,13 @@ return [
                         'image' => 'gantry-media://logo/152926842_279410070198546_2843013979326372393_n.png'
                     ]
                 ],
+                'position-position-8364' => [
+                    'title' => 'search',
+                    'attributes' => [
+                        'key' => 'search',
+                        'chrome' => ''
+                    ]
+                ],
                 'custom-2399' => [
                     'title' => 'Top Menu',
                     'attributes' => [
@@ -767,6 +789,25 @@ return [
                     'title' => 'Aside',
                     'attributes' => [
                         'key' => 'aside'
+                    ]
+                ],
+                'position-position-2554' => [
+                    'title' => 'pre1',
+                    'attributes' => [
+                        'key' => 'pre1'
+                    ]
+                ],
+                'position-position-3719' => [
+                    'title' => 'perview',
+                    'attributes' => [
+                        'enabled' => 0,
+                        'key' => 'perview'
+                    ]
+                ],
+                'position-position-7111' => [
+                    'title' => 'share',
+                    'attributes' => [
+                        'key' => 'share'
                     ]
                 ],
                 'position-position-3949' => [

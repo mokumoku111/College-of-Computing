@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.3" client="site" method="upgrade">
+    <name>JMG Article Slider</name>
+    <author>Otto Szekeres</author>
+    <authorEmail>info@joomega.com</authorEmail>
+	<authorUrl>www.joomega.com</authorUrl>
+	<creationDate>January 2021</creationDate>
+   	<copyright>Copyright (C) 2021 - 2029 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0.0</version>
+    <description>JMG Article Slider 1.0.0</description>
+	
+    <files>
+	    <filename module="mod_jmgarticleslider">mod_jmgarticleslider.php</filename>
+        <filename>mod_jmgarticleslider.xml</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <folder>assets</folder>
+        <folder>field</folder>
+        <folder>tmpl</folder>
+        <folder>theme</folder>
+		<folder>language</folder>
+    </files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jmgarticleslider.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_jmgarticleslider.sys.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.mod_jmgarticleslider.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.mod_jmgarticleslider.sys.ini</language>
+	</languages>
+	
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="mod_jmgarticleslider_info"
+					type="info"
+					label=""
+				/>
+			</fieldset>
+			<fieldset name="settings" label="MOD_JMGARTICLESLIDER_SETTINGS">
+				<field 
+					name="category" 
+					type="category" 
+					extension="com_content" 
+					label="MOD_JMGARTICLESLIDER_CATEGORY" 
+					description="MOD_JMGARTICLESLIDER_CATEGORY_DESC" 
+				/>
+				<field 
+					name="template" 
+					type="list" 
+					default="default" 
+					label="MOD_JMGARTICLESLIDER_TEMPLATE" 
+					description="MOD_JMGARTICLESLIDER_TEMPLATE_DESC"
+					class="chzn-color-state"
+					readonly="false">
+					<option value="default">MOD_JMGARTICLESLIDER_TEMPLATE_DEFAULT</option>
+				</field>
+				<field 
+					name="cols" 
+					type="list" 
+					default="3" 
+					label="MOD_JMGARTICLESLIDER_COLUMNS" 
+					description="MOD_JMGARTICLESLIDER_COLUMNS_DESC" 
+					readonly="false">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+				</field>
+				<field name="img_height"
+					type="text"
+					default="200"
+					hint="px"
+					label="MOD_JMGARTICLESLIDER_IMG_HEIGHT"
+					description="MOD_JMGARTICLESLIDER_IMG_HEIGHT_DESC"
+					filter="string"
+				/>
+				<field name="max_length"
+					type="text"
+					default="100"
+					label="MOD_JMGARTICLESLIDER_MAXLENGTH"
+					description="MOD_JMGARTICLESLIDER_MAXLENGTH_DESC"
+					filter="string"
+				/>
+         	</fieldset>
+		</fields>
+    </config>
+	<updateservers>
+    	<server type="extension" priority="1" name="JMG Article Sliders's Updates">http://update.joomega.com/mod_jmgarticleslider/extension.xml</server>
+ 	</updateservers>
+</extension>

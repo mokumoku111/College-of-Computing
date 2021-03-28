@@ -1,0 +1,93 @@
+#rsfinder {
+	float: left;
+	display: block;
+}
+
+#rsfinder_input {
+	background: url(../images/mod_rsfinder.gif) no-repeat right center #FFFFFF;
+	height: 16px;
+    margin: 4px 0 0;
+    padding: 0;
+	width: 300px;
+}
+
+#rsfinder input.loading {
+	background: url(../images/loader.gif) no-repeat right center #FFFFFF;
+}
+
+#rsfinder #rsfinder_results_container {
+	position:absolute;
+	z-index:9999;
+	background:#333333;
+	width: 300px;
+	display:none;
+	filter:alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity:0.9;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#rsfinder_results_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+#rsfinder_results_list li {
+	margin:0;
+	padding:1px;
+	list-style-type:none;
+	float: none;
+	overflow: hidden;
+	color: #fff;
+}
+
+#rsfinder_results_list li:hover {
+	background: none;
+}
+
+#rsfinder_results_list li a {
+	background: none;
+	display: block;
+	width: 100%;
+	border-radius: 0;
+	moz-border-radius: 0;
+	-webkit-border-radius: 0;
+}
+
+#rsfinder_results_list li a.rsInactive {
+	color: #ffffff;
+	text-decoration:none;
+	display: block;
+	padding:5px;
+}
+
+.rsActive,
+#rsfinder_results_list li a:hover {
+	color: #000000 !important;
+	background:#ffffff !important;
+	display: block;
+	padding:5px;
+}
+
+.rsClose {
+	float: right !important;
+}
+
+.rsClose a {
+	color: #ffffff;
+	text-decoration:none;
+	display: block;
+	padding:5px;
+}
+
+.rsClose a:hover {
+	background:none !important;
+	color: #ffffff;
+	text-decoration:none;
+	display: block;
+	padding:5px;
+}

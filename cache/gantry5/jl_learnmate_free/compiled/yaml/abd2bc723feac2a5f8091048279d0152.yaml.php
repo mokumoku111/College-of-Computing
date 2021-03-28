@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/particles/contenttabs.yaml',
-    'modified' => 1615820955,
+    'modified' => 1615825436,
     'data' => [
         'name' => 'Content Tabs',
         'description' => 'Displays Content Tabs.',

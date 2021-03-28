@@ -1,181 +1,181 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledBlueprints',
-    'timestamp' => 1615821050,
-    'checksum' => '0290f79351a8ca929d39ea1ad222bc29',
+    'timestamp' => 1615827973,
+    'checksum' => '3f10168d23a62da2f811c6a564fcdbf9',
     'files' => [
         'templates/jl_learnmate_free/custom/particles' => [
             'particles/backtotop' => [
                 'file' => 'templates/jl_learnmate_free/custom/particles/backtotop.yaml',
-                'modified' => 1615820953
+                'modified' => 1615825436
             ],
             'particles/sticky' => [
                 'file' => 'templates/jl_learnmate_free/custom/particles/sticky.yaml',
-                'modified' => 1615820953
+                'modified' => 1615825436
             ]
         ],
         'templates/jl_learnmate_free/particles' => [
             'particles/contentcubes' => [
                 'file' => 'templates/jl_learnmate_free/particles/contentcubes.yaml',
-                'modified' => 1615820955
+                'modified' => 1615825436
             ],
             'particles/contenttabs' => [
                 'file' => 'templates/jl_learnmate_free/particles/contenttabs.yaml',
-                'modified' => 1615820955
+                'modified' => 1615825436
             ],
             'particles/copyright' => [
                 'file' => 'templates/jl_learnmate_free/particles/copyright.yaml',
-                'modified' => 1615820955
+                'modified' => 1615825436
             ],
             'particles/horizontalmenu' => [
                 'file' => 'templates/jl_learnmate_free/particles/horizontalmenu.yaml',
-                'modified' => 1615820955
+                'modified' => 1615825436
             ],
             'particles/owlcarousel' => [
                 'file' => 'templates/jl_learnmate_free/particles/owlcarousel.yaml',
-                'modified' => 1615820955
+                'modified' => 1615825436
             ]
         ],
         'media/gantry5/engines/nucleus/particles' => [
             'particles/analytics' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/analytics.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/assets' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/assets.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/branding' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/branding.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/content' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/content.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/contentarray' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/contentarray.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/copyright' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/copyright.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/custom' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/custom.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/date' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/date.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/frameworks' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/frameworks.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/lightcase' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/lightcase.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/logo' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/logo.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/menu' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/menu.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/messages' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/messages.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/mobile-menu' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/mobile-menu.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/module' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/module.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/position' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/position.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/social' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/social.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/spacer' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/spacer.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ],
             'particles/totop' => [
                 'file' => 'media/gantry5/engines/nucleus/particles/totop.yaml',
-                'modified' => 1615820837
+                'modified' => 1615825435
             ]
         ],
         'templates/jl_learnmate_free/blueprints' => [
             'styles/above-slideshow' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/above-slideshow.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/accent' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/accent.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/base' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/base.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/breakpoints' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/breakpoints.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/font' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/font.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/footer' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/footer.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/header' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/header.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/menu' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/menu.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/navigation' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/navigation.yaml',
-                'modified' => 1615820951
+                'modified' => 1615825436
             ],
             'styles/offcanvas' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/offcanvas.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ],
             'styles/slideshow' => [
                 'file' => 'templates/jl_learnmate_free/blueprints/styles/slideshow.yaml',
-                'modified' => 1615820952
+                'modified' => 1615825436
             ]
         ],
         'media/gantry5/engines/nucleus/blueprints' => [
             'page/assets' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/assets.yaml',
-                'modified' => 1615820836
+                'modified' => 1615825435
             ],
             'page/body' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/body.yaml',
-                'modified' => 1615820836
+                'modified' => 1615825435
             ],
             'page/fontawesome' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/fontawesome.yaml',
-                'modified' => 1615820836
+                'modified' => 1615825435
             ],
             'page/head' => [
                 'file' => 'media/gantry5/engines/nucleus/blueprints/page/head.yaml',
-                'modified' => 1615820836
+                'modified' => 1615825435
             ]
         ]
     ],

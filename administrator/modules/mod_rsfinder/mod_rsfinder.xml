@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="administrator"  version="2.5" method="upgrade">
+	<name>mod_rsfinder</name>
+	<author>RSJoomla!</author>
+	<creationDate>February 2009</creationDate>
+	<copyright>(C) 2009-2012 www.rsjoomla.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@rsjoomla.com</authorEmail>
+	<authorUrl>www.rsjoomla.com</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_RSFINDER_DESC</description>
+	
+	<files>
+		<filename module="mod_rsfinder">mod_rsfinder.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>tmpl</folder>
+	</files>
+	
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_rsfinder.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_rsfinder.sys.ini</language>
+	</languages>
+</extension>

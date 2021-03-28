@@ -6,8 +6,9 @@ preset:
 layout:
   /header/:
     -
-      - 'logo-9608 12'
-      - 'spacer-spacer-8120 73'
+      - 'logo-9608 10'
+      - 'spacer-8120 57'
+      - 'position-position-8364 18'
       - 'custom-2399 5'
       - 'position-position-2741 10'
   /navigation/:
@@ -30,7 +31,12 @@ layout:
           -
             - system-content-1587
           -
+            - position-position-2554
+          -
             - position-position-3719
+          -
+            - 'position-position-7111 30'
+            - 'spacer-3635 70'
       -
         'sidebar 25':
           -
@@ -100,6 +106,11 @@ content:
     title: 'Logo / Image'
     attributes:
       image: 'gantry-media://logo/152926842_279410070198546_2843013979326372393_n.png'
+  position-position-8364:
+    title: search
+    attributes:
+      key: search
+      chrome: ''
   custom-2399:
     title: 'Top Menu'
     attributes:
@@ -117,10 +128,19 @@ content:
     title: Aside
     attributes:
       key: aside
+  position-position-2554:
+    title: pre1
+    attributes:
+      key: pre1
   position-position-3719:
     title: perview
     attributes:
+      enabled: 0
       key: perview
+  position-position-7111:
+    title: share
+    attributes:
+      key: share
   position-position-3949:
     title: Sidebar
     attributes:

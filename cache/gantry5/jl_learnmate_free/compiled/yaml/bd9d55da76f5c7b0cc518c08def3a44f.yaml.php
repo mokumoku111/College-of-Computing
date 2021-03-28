@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/custom/config/_offline/index.yaml',
-    'modified' => 1615822149,
+    'modified' => 1616905108,
     'data' => [
         'name' => '_offline',
-        'timestamp' => 1615822149,
+        'timestamp' => 1616905108,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -13,6 +13,7 @@ return [
             'timestamp' => 1483060787
         ],
         'positions' => [
+            'search' => 'search',
             'switch' => 'switch'
         ],
         'sections' => [
@@ -37,7 +38,11 @@ return [
                 'logo-7086' => 'Logo / Image'
             ],
             'spacer' => [
-                'spacer-6671' => 'Spacer'
+                'spacer-4990' => 'Spacer'
+            ],
+            'position' => [
+                'position-position-7429' => 'search',
+                'position-position-2288' => 'switch'
             ],
             'custom' => [
                 'custom-1215' => 'Top Menu',
@@ -46,9 +51,6 @@ return [
                 'custom-7601' => 'Quick Link',
                 'custom-6510' => 'Extra Link',
                 'custom-4933' => 'Contact Information'
-            ],
-            'position' => [
-                'position-position-2288' => 'switch'
             ],
             'menu' => [
                 'menu-2468' => 'Menu'
@@ -70,6 +72,8 @@ return [
                 'footer' => 'footer',
                 'offcanvas' => 'offcanvas',
                 'logo-7086' => 'logo-9608',
+                'spacer-4990' => 'spacer-8120',
+                'position-position-7429' => 'position-position-8364',
                 'custom-1215' => 'custom-2399',
                 'position-position-2288' => 'position-position-2741',
                 'menu-2468' => 'menu-6409',

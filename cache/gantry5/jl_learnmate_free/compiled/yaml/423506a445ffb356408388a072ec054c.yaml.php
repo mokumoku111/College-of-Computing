@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/blueprints/styles/font.yaml',
-    'modified' => 1615820951,
+    'modified' => 1615825436,
     'data' => [
         'name' => 'Font Families',
         'description' => 'Font families for the Learnmate theme',

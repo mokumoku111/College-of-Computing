@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/blueprints/styles/above-slideshow.yaml',
-    'modified' => 1615820951,
+    'modified' => 1615825436,
     'data' => [
         'name' => 'Above slideshow Styles',
         'description' => 'Above slideshow section styles for the Learnmate theme',

@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/var/www/html/templates/jl_learnmate_free/custom/config/_body_only/index.yaml',
-    'modified' => 1615820960,
+    'modified' => 1615830941,
     'data' => [
         'name' => '_body_only',
-        'timestamp' => 1615820952,
+        'timestamp' => 1615825436,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/body-only.png',
